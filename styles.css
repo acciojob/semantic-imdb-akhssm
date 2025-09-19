@@ -1,2 +1,92 @@
 
 /* Your CSS Code here. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/
+body {
+  background: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+
+header {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 20px 0;
+  background: #0c4b73;
+  color: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+nav {
+  background: #e3e8ed;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #0c4b73;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #ff6600;
+}
+
+
+section {
+  background: #fff;
+  padding: 15px;
+  margin: 15px auto;
+  max-width: 700px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+blockquote {
+  margin: 10px 0;
+  padding-left: 15px;
+  border-left: 5px solid #0c4b73;
+  font-style: italic;
+  color: #555;
+}
+
+
+aside {
+  max-width: 700px;
+  margin: 15px auto;
+  background: #f8fafc;
+  padding: 15px;
+  border-left: 5px solid #0c4b73;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+  background: #0c4b73;
+  color: #fff;
+  border-radius: 8px;
+}
